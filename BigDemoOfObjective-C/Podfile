@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git’
+
+use_frameworks!
+
+platform:ios, '10.0'
+target 'BigDemoOfObjective-C' do 
+	pod 'SVProgressHUD'
+	pod 'SDWebImage', '~> 5.7.2'
+  pod 'AFNetworking', '~> 4.0.1'
+  pod 'Masonry', '~> 1.1.0'
+end

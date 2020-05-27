@@ -1,0 +1,23 @@
+//
+//  Demo.pch
+//  BigDemoOfObjective-C
+//
+//  Created by 王亮 on 2020/5/25.
+//  Copyright © 2020 DevWangLiang. All rights reserved.
+//
+
+#ifndef Demo_pch
+#define Demo_pch
+
+// 添加pch文件注意
+/**
+ 去build setting搜索prefix
+ 在APPle clang language 中修改Precompile prefix header为YES
+ 修改prefix header路径
+ 拖拽文件进输入框,将项目路径替换为$(SRCROOT)
+ */
+
+#import "Tools.h"
+
+
+#endif /* Demo_pch */

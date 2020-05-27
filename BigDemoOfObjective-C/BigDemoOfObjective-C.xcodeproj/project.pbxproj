@@ -10,14 +10,29 @@
 		61D76C7E543A2DB1C3FC0F76 /* Pods_BigDemoOfObjective_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCFCBEFF46B5A246C9F5AEE /* Pods_BigDemoOfObjective_C.framework */; };
 		EFC8EDE7247BA02300E331DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EDE6247BA02300E331DD /* AppDelegate.m */; };
 		EFC8EDEA247BA02300E331DD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EDE9247BA02300E331DD /* SceneDelegate.m */; };
-		EFC8EDED247BA02300E331DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EDEC247BA02300E331DD /* ViewController.m */; };
 		EFC8EDF0247BA02300E331DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC8EDEE247BA02300E331DD /* Main.storyboard */; };
 		EFC8EDF2247BA02600E331DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC8EDF1247BA02600E331DD /* Assets.xcassets */; };
 		EFC8EDF5247BA02600E331DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC8EDF3247BA02600E331DD /* LaunchScreen.storyboard */; };
 		EFC8EDF8247BA02600E331DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EDF7247BA02600E331DD /* main.m */; };
 		EFC8EE02247BA02700E331DD /* BigDemoOfObjective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE01247BA02700E331DD /* BigDemoOfObjective_CTests.m */; };
 		EFC8EE0D247BA02700E331DD /* BigDemoOfObjective_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE0C247BA02700E331DD /* BigDemoOfObjective_CUITests.m */; };
-		EFC8EE1C247BA52800E331DD /* Macros.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE1B247BA52800E331DD /* Macros.m */; };
+		EFC8EE20247BA70600E331DD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE1F247BA70600E331DD /* MainViewController.m */; };
+		EFC8EE24247BA76200E331DD /* WorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE23247BA76200E331DD /* WorkViewController.m */; };
+		EFC8EE2F247BA81600E331DD /* AddressTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE2E247BA81600E331DD /* AddressTreeViewController.m */; };
+		EFC8EE32247BA82800E331DD /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE31247BA82800E331DD /* SettingsViewController.m */; };
+		EFC8EE36247BAEBF00E331DD /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE35247BAEBF00E331DD /* LaunchViewController.m */; };
+		EFC8EE3B247BB3C500E331DD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE3A247BB3C500E331DD /* LoginViewController.m */; };
+		EFC8EE3D247BB53300E331DD /* LaunchViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC8EE3C247BB53300E331DD /* LaunchViewController.storyboard */; };
+		EFC8EE40247BB72600E331DD /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE3F247BB72600E331DD /* Tools.m */; };
+		EFC8EE46247BC6D200E331DD /* LaunchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE45247BC6D200E331DD /* LaunchCell.m */; };
+		EFC8EE4A247BC98E00E331DD /* LaunchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE49247BC98E00E331DD /* LaunchModel.m */; };
+		EFC8EE4C247CAC5900E331DD /* LaunchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC8EE4B247CAC5900E331DD /* LaunchCell.xib */; };
+		EFC8EE4F247D064A00E331DD /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE4E247D064A00E331DD /* BaseNavigationViewController.m */; };
+		EFC8EE53247D0A8100E331DD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE52247D0A8100E331DD /* BaseViewController.m */; };
+		EFC8EE56247D11D200E331DD /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE55247D11D200E331DD /* CustomTabBar.m */; };
+		EFC8EE59247DEAA700E331DD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE58247DEAA700E331DD /* Person.m */; };
+		EFC8EE5D247E471500E331DD /* AboutCALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE5C247E471500E331DD /* AboutCALayer.m */; };
+		EFC8EE60247E487300E331DD /* AboutAmimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE5F247E487300E331DD /* AboutAmimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +56,11 @@
 		600C36C434263A7B584B3D82 /* Pods-BigDemoOfObjective-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigDemoOfObjective-C.debug.xcconfig"; path = "Target Support Files/Pods-BigDemoOfObjective-C/Pods-BigDemoOfObjective-C.debug.xcconfig"; sourceTree = "<group>"; };
 		89946C843CFCFCD72797AC72 /* Pods-BigDemoOfObjective-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigDemoOfObjective-C.release.xcconfig"; path = "Target Support Files/Pods-BigDemoOfObjective-C/Pods-BigDemoOfObjective-C.release.xcconfig"; sourceTree = "<group>"; };
 		ECCFCBEFF46B5A246C9F5AEE /* Pods_BigDemoOfObjective_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigDemoOfObjective_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFC8EDE2247BA02300E331DD /* BigDemoOfObjective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BigDemoOfObjective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC8EDE2247BA02300E331DD /* OC示例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC示例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC8EDE5247BA02300E331DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFC8EDE6247BA02300E331DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EFC8EDE8247BA02300E331DD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		EFC8EDE9247BA02300E331DD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		EFC8EDEB247BA02300E331DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EFC8EDEC247BA02300E331DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EFC8EDEF247BA02300E331DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFC8EDF1247BA02600E331DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFC8EDF4247BA02600E331DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,7 +72,39 @@
 		EFC8EE08247BA02700E331DD /* BigDemoOfObjective-CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BigDemoOfObjective-CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC8EE0C247BA02700E331DD /* BigDemoOfObjective_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigDemoOfObjective_CUITests.m; sourceTree = "<group>"; };
 		EFC8EE0E247BA02700E331DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFC8EE1B247BA52800E331DD /* Macros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Macros.m; sourceTree = "<group>"; };
+		EFC8EE1E247BA70600E331DD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EFC8EE1F247BA70600E331DD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EFC8EE22247BA76200E331DD /* WorkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkViewController.h; sourceTree = "<group>"; };
+		EFC8EE23247BA76200E331DD /* WorkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkViewController.m; sourceTree = "<group>"; };
+		EFC8EE2D247BA81600E331DD /* AddressTreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressTreeViewController.h; sourceTree = "<group>"; };
+		EFC8EE2E247BA81600E331DD /* AddressTreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressTreeViewController.m; sourceTree = "<group>"; };
+		EFC8EE30247BA82800E331DD /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		EFC8EE31247BA82800E331DD /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		EFC8EE34247BAEBF00E331DD /* LaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		EFC8EE35247BAEBF00E331DD /* LaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		EFC8EE39247BB3C500E331DD /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EFC8EE3A247BB3C500E331DD /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EFC8EE3C247BB53300E331DD /* LaunchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchViewController.storyboard; sourceTree = "<group>"; };
+		EFC8EE3E247BB72600E331DD /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		EFC8EE3F247BB72600E331DD /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		EFC8EE42247BB82000E331DD /* Demo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo.pch; sourceTree = "<group>"; };
+		EFC8EE44247BC6D200E331DD /* LaunchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchCell.h; sourceTree = "<group>"; };
+		EFC8EE45247BC6D200E331DD /* LaunchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchCell.m; sourceTree = "<group>"; };
+		EFC8EE48247BC98E00E331DD /* LaunchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchModel.h; sourceTree = "<group>"; };
+		EFC8EE49247BC98E00E331DD /* LaunchModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchModel.m; sourceTree = "<group>"; };
+		EFC8EE4B247CAC5900E331DD /* LaunchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchCell.xib; sourceTree = "<group>"; };
+		EFC8EE4D247D064A00E331DD /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		EFC8EE4E247D064A00E331DD /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		EFC8EE51247D0A8100E331DD /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EFC8EE52247D0A8100E331DD /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		EFC8EE54247D11D200E331DD /* CustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		EFC8EE55247D11D200E331DD /* CustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		EFC8EE57247DEAA600E331DD /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EFC8EE58247DEAA700E331DD /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EFC8EE5B247E471500E331DD /* AboutCALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutCALayer.h; sourceTree = "<group>"; };
+		EFC8EE5C247E471500E331DD /* AboutCALayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutCALayer.m; sourceTree = "<group>"; };
+		EFC8EE5E247E487300E331DD /* AboutAmimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutAmimation.h; sourceTree = "<group>"; };
+		EFC8EE5F247E487300E331DD /* AboutAmimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutAmimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +153,9 @@
 		EFC8EDD9247BA02300E331DD = {
 			isa = PBXGroup;
 			children = (
+				EFC8EE5A247E46B600E331DD /* Animation */,
+				EFC8EE21247BA73100E331DD /* Modules */,
+				EFC8EE1D247BA6E400E331DD /* MainController */,
 				EFC8EE1A247BA50700E331DD /* Tools */,
 				EFC8EDE4247BA02300E331DD /* BigDemoOfObjective-C */,
 				EFC8EE00247BA02700E331DD /* BigDemoOfObjective-CTests */,
@@ -121,7 +169,7 @@
 		EFC8EDE3247BA02300E331DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EFC8EDE2247BA02300E331DD /* BigDemoOfObjective-C.app */,
+				EFC8EDE2247BA02300E331DD /* OC示例.app */,
 				EFC8EDFD247BA02700E331DD /* BigDemoOfObjective-CTests.xctest */,
 				EFC8EE08247BA02700E331DD /* BigDemoOfObjective-CUITests.xctest */,
 			);
@@ -135,13 +183,12 @@
 				EFC8EDE6247BA02300E331DD /* AppDelegate.m */,
 				EFC8EDE8247BA02300E331DD /* SceneDelegate.h */,
 				EFC8EDE9247BA02300E331DD /* SceneDelegate.m */,
-				EFC8EDEB247BA02300E331DD /* ViewController.h */,
-				EFC8EDEC247BA02300E331DD /* ViewController.m */,
 				EFC8EDEE247BA02300E331DD /* Main.storyboard */,
 				EFC8EDF1247BA02600E331DD /* Assets.xcassets */,
 				EFC8EDF3247BA02600E331DD /* LaunchScreen.storyboard */,
 				EFC8EDF6247BA02600E331DD /* Info.plist */,
 				EFC8EDF7247BA02600E331DD /* main.m */,
+				EFC8EE42247BB82000E331DD /* Demo.pch */,
 			);
 			path = "BigDemoOfObjective-C";
 			sourceTree = "<group>";
@@ -167,9 +214,165 @@
 		EFC8EE1A247BA50700E331DD /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				EFC8EE1B247BA52800E331DD /* Macros.m */,
+				EFC8EE3E247BB72600E331DD /* Tools.h */,
+				EFC8EE3F247BB72600E331DD /* Tools.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		EFC8EE1D247BA6E400E331DD /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE2C247BA7D600E331DD /* BaseViews */,
+				EFC8EE2B247BA7CD00E331DD /* BaseController */,
+				EFC8EE2A247BA7BF00E331DD /* BaseModel */,
+				EFC8EE1E247BA70600E331DD /* MainViewController.h */,
+				EFC8EE1F247BA70600E331DD /* MainViewController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		EFC8EE21247BA73100E331DD /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE50247D0A1200E331DD /* Other */,
+				EFC8EE38247BB3AF00E331DD /* Login */,
+				EFC8EE33247BAE9500E331DD /* Launcher */,
+				EFC8EE27247BA78600E331DD /* Settings */,
+				EFC8EE26247BA77800E331DD /* AddressTree */,
+				EFC8EE25247BA77000E331DD /* Work */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EFC8EE25247BA77000E331DD /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE29247BA7AC00E331DD /* Model */,
+				EFC8EE28247BA7A500E331DD /* Views */,
+				EFC8EE22247BA76200E331DD /* WorkViewController.h */,
+				EFC8EE23247BA76200E331DD /* WorkViewController.m */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+		EFC8EE26247BA77800E331DD /* AddressTree */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE2D247BA81600E331DD /* AddressTreeViewController.h */,
+				EFC8EE2E247BA81600E331DD /* AddressTreeViewController.m */,
+			);
+			path = AddressTree;
+			sourceTree = "<group>";
+		};
+		EFC8EE27247BA78600E331DD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE30247BA82800E331DD /* SettingsViewController.h */,
+				EFC8EE31247BA82800E331DD /* SettingsViewController.m */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EFC8EE28247BA7A500E331DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EFC8EE29247BA7AC00E331DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFC8EE2A247BA7BF00E331DD /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE57247DEAA600E331DD /* Person.h */,
+				EFC8EE58247DEAA700E331DD /* Person.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		EFC8EE2B247BA7CD00E331DD /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE4D247D064A00E331DD /* BaseNavigationViewController.h */,
+				EFC8EE4E247D064A00E331DD /* BaseNavigationViewController.m */,
+				EFC8EE51247D0A8100E331DD /* BaseViewController.h */,
+				EFC8EE52247D0A8100E331DD /* BaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		EFC8EE2C247BA7D600E331DD /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE54247D11D200E331DD /* CustomTabBar.h */,
+				EFC8EE55247D11D200E331DD /* CustomTabBar.m */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		EFC8EE33247BAE9500E331DD /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE47247BC97500E331DD /* Model */,
+				EFC8EE43247BC6A800E331DD /* VIews */,
+				EFC8EE34247BAEBF00E331DD /* LaunchViewController.h */,
+				EFC8EE35247BAEBF00E331DD /* LaunchViewController.m */,
+				EFC8EE3C247BB53300E331DD /* LaunchViewController.storyboard */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
+		};
+		EFC8EE38247BB3AF00E331DD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE39247BB3C500E331DD /* LoginViewController.h */,
+				EFC8EE3A247BB3C500E331DD /* LoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EFC8EE43247BC6A800E331DD /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE44247BC6D200E331DD /* LaunchCell.h */,
+				EFC8EE45247BC6D200E331DD /* LaunchCell.m */,
+				EFC8EE4B247CAC5900E331DD /* LaunchCell.xib */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		EFC8EE47247BC97500E331DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE48247BC98E00E331DD /* LaunchModel.h */,
+				EFC8EE49247BC98E00E331DD /* LaunchModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EFC8EE50247D0A1200E331DD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EFC8EE5A247E46B600E331DD /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE5B247E471500E331DD /* AboutCALayer.h */,
+				EFC8EE5C247E471500E331DD /* AboutCALayer.m */,
+				EFC8EE5E247E487300E331DD /* AboutAmimation.h */,
+				EFC8EE5F247E487300E331DD /* AboutAmimation.m */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +394,7 @@
 			);
 			name = "BigDemoOfObjective-C";
 			productName = "BigDemoOfObjective-C";
-			productReference = EFC8EDE2247BA02300E331DD /* BigDemoOfObjective-C.app */;
+			productReference = EFC8EDE2247BA02300E331DD /* OC示例.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EFC8EDFC247BA02700E331DD /* BigDemoOfObjective-CTests */ = {
@@ -277,7 +480,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC8EE3D247BB53300E331DD /* LaunchViewController.storyboard in Resources */,
 				EFC8EDF5247BA02600E331DD /* LaunchScreen.storyboard in Resources */,
+				EFC8EE4C247CAC5900E331DD /* LaunchCell.xib in Resources */,
 				EFC8EDF2247BA02600E331DD /* Assets.xcassets in Resources */,
 				EFC8EDF0247BA02300E331DD /* Main.storyboard in Resources */,
 			);
@@ -346,11 +551,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC8EDED247BA02300E331DD /* ViewController.m in Sources */,
 				EFC8EDE7247BA02300E331DD /* AppDelegate.m in Sources */,
-				EFC8EE1C247BA52800E331DD /* Macros.m in Sources */,
+				EFC8EE36247BAEBF00E331DD /* LaunchViewController.m in Sources */,
 				EFC8EDF8247BA02600E331DD /* main.m in Sources */,
+				EFC8EE5D247E471500E331DD /* AboutCALayer.m in Sources */,
+				EFC8EE3B247BB3C500E331DD /* LoginViewController.m in Sources */,
+				EFC8EE32247BA82800E331DD /* SettingsViewController.m in Sources */,
+				EFC8EE53247D0A8100E331DD /* BaseViewController.m in Sources */,
+				EFC8EE20247BA70600E331DD /* MainViewController.m in Sources */,
+				EFC8EE40247BB72600E331DD /* Tools.m in Sources */,
+				EFC8EE56247D11D200E331DD /* CustomTabBar.m in Sources */,
 				EFC8EDEA247BA02300E331DD /* SceneDelegate.m in Sources */,
+				EFC8EE60247E487300E331DD /* AboutAmimation.m in Sources */,
+				EFC8EE59247DEAA700E331DD /* Person.m in Sources */,
+				EFC8EE2F247BA81600E331DD /* AddressTreeViewController.m in Sources */,
+				EFC8EE46247BC6D200E331DD /* LaunchCell.m in Sources */,
+				EFC8EE4F247D064A00E331DD /* BaseNavigationViewController.m in Sources */,
+				EFC8EE4A247BC98E00E331DD /* LaunchModel.m in Sources */,
+				EFC8EE24247BA76200E331DD /* WorkViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +739,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BigDemoOfObjective-C/Demo.pch";
 				INFOPLIST_FILE = "BigDemoOfObjective-C/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -528,8 +748,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "DevWangLiang.BigDemoOfObjective-C";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "OC示例";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -539,6 +759,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BigDemoOfObjective-C/Demo.pch";
 				INFOPLIST_FILE = "BigDemoOfObjective-C/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -546,8 +768,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "DevWangLiang.BigDemoOfObjective-C";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PRODUCT_NAME = "OC示例";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

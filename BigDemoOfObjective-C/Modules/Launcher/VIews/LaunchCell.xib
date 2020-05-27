@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="CKF-vk-3qa" customClass="LaunchCell">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="603"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="zZo-Yl-SSj">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="603"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="content" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J55-BI-sn9">
+                        <rect key="frame" x="126" y="100" width="73.5" height="24"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mi2-Cp-u38">
+                        <rect key="frame" x="112.5" y="505" width="100" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="AXI-gm-kF5"/>
+                            <constraint firstAttribute="height" constant="48" id="YOM-nZ-CtF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <state key="normal" title="立即体验" backgroundImage="common_button_white_disable">
+                            <color key="titleColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xP-FE-dDp">
+                        <rect key="frame" x="138.5" y="224" width="48" height="119.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="100"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Mi2-Cp-u38" firstAttribute="centerX" secondItem="zZo-Yl-SSj" secondAttribute="centerX" id="2vS-rz-zT4"/>
+                    <constraint firstItem="5xP-FE-dDp" firstAttribute="top" secondItem="J55-BI-sn9" secondAttribute="bottom" constant="100" id="98T-XF-660"/>
+                    <constraint firstItem="5xP-FE-dDp" firstAttribute="centerX" secondItem="zZo-Yl-SSj" secondAttribute="centerX" id="QKn-2J-mDq"/>
+                    <constraint firstAttribute="bottom" secondItem="Mi2-Cp-u38" secondAttribute="bottom" constant="50" id="i1r-K1-XFK"/>
+                    <constraint firstItem="J55-BI-sn9" firstAttribute="centerX" secondItem="zZo-Yl-SSj" secondAttribute="centerX" id="lM4-GC-m5A"/>
+                    <constraint firstItem="J55-BI-sn9" firstAttribute="top" secondItem="zZo-Yl-SSj" secondAttribute="top" constant="100" id="wKz-c0-02L"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="325" height="603"/>
+            <connections>
+                <outlet property="button" destination="Mi2-Cp-u38" id="Qdw-Ud-k59"/>
+                <outlet property="contentLabel" destination="J55-BI-sn9" id="PST-rK-dlg"/>
+                <outlet property="numLabel" destination="5xP-FE-dDp" id="E1c-Zr-Jhb"/>
+            </connections>
+            <point key="canvasLocation" x="38.405797101449281" y="-16.40625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="common_button_white_disable" width="11" height="26.5"/>
+    </resources>
+</document>

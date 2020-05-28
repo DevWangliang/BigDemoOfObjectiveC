@@ -83,6 +83,7 @@ static NSString * const reuseIdentifier = @"LaunchCell";
     ];
     for (int i = 0; i < data.count; i++) {
         LaunchModel *model = [LaunchModel modelWithDictionary:data[i]];
+        model.isLast = false;
         [self.dataSource addObject:model];
     }
 }
@@ -92,7 +93,7 @@ static NSString * const reuseIdentifier = @"LaunchCell";
 
 - (void)didClickButton:(UIButton *)btn inCell:(LaunchCell *)cell{
     [[NSNotificationCenter defaultCenter] postNotificationName:@"SwitchRootController" object:nil];
-    [[NSUserDefaults standardUserDefaults] setBool:true forKey:@"IsFirst1"];
+    [[NSUserDefaults standardUserDefaults] setBool:true forKey:kIsFirst];
 }
 
 #pragma mark <UICollectionViewDataSource>
@@ -110,7 +111,11 @@ static NSString * const reuseIdentifier = @"LaunchCell";
 #pragma mark cell
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     LaunchCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
-    cell.model = self.dataSource[indexPath.item];
+    LaunchModel *model = self.dataSource[indexPath.item];
+    if (indexPath.item == self.dataSource.count - 1) {
+        model.isLast = true;
+    }
+    cell.model = model;
     cell.delegate = self;
     return cell;
 }

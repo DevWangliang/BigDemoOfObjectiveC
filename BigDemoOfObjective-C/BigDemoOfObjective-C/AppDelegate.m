@@ -18,7 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    BOOL isFirst = [[NSUserDefaults standardUserDefaults] boolForKey:@"IsFirst1"];
+    BOOL isFirst = [[NSUserDefaults standardUserDefaults] boolForKey:kIsFirst];
     if (!isFirst) {
         self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
         self.window.backgroundColor = [UIColor whiteColor];
@@ -30,7 +30,7 @@
         [self.window makeKeyAndVisible];
     }
     [self setTheme];
-    
+    self.window.backgroundColor = UIColor.whiteColor;
 //    [self testArchive];
     
     
@@ -74,7 +74,7 @@
     root.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     [UIView transitionWithView:window
                     duration:1
-                     options:UIViewAnimationOptionTransitionCrossDissolve
+                     options:UIViewAnimationOptionTransitionFlipFromBottom
                   animations:^{
                       BOOL oldState = [UIView areAnimationsEnabled];
                       [UIView setAnimationsEnabled:NO];

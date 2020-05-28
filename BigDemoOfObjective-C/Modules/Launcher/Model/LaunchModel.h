@@ -20,6 +20,7 @@ typedef NS_ENUM(NSUInteger, LaunchModelType) {
 @property (nonatomic, copy) NSString *title;
 @property (nonatomic, copy) NSString *num;
 @property (nonatomic, assign) LaunchModelType type;
+@property (nonatomic, assign) BOOL isLast;
 
 + (instancetype)modelWithDictionary:(NSDictionary *)dic;
 

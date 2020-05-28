@@ -29,13 +29,18 @@
     self.numLabel.text = _model.num;
     self.contentLabel.text = _model.title;
     self.backgroundColor = [Tools randomColor];
+    if (!_model.isLast) {
+        self.button.hidden = true;
+    }
 }
 
 - (void)showBottmButton {
+    self.button.transform = CGAffineTransformMakeScale(0, 0);
     [UIView animateWithDuration:1 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.button.hidden = false;
+        self.button.transform = CGAffineTransformMakeScale(1, 1);
     } completion:^(BOOL finished) {
-        
+        self.button.transform = CGAffineTransformIdentity;
     }];
 }
 

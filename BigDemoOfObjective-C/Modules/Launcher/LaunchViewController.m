@@ -28,6 +28,13 @@ static NSString * const reuseIdentifier = @"LaunchCell";
     
     [self setupData];
     
+    self.layout.minimumLineSpacing = 0;
+    self.layout.minimumInteritemSpacing = 0;
+    self.layout.sectionInset = UIEdgeInsetsMake(0, 0, 0, 0);
+    CGSize boundsSize = [UIScreen mainScreen].bounds.size;
+    self.layout.estimatedItemSize = boundsSize;
+    self.layout.itemSize = boundsSize;
+    
     // Register cell classes
 //    [self.collectionView registerClass:[LaunchCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
@@ -36,19 +43,10 @@ static NSString * const reuseIdentifier = @"LaunchCell";
 }
 
 - (void)viewWillLayoutSubviews{
-    self.layout.minimumLineSpacing = 0;
-    self.layout.minimumInteritemSpacing = 0;
-    self.layout.sectionInset = UIEdgeInsetsMake(0, 0, 0, 0);
-    CGSize boundsSize = [UIScreen mainScreen].bounds.size;
-    self.layout.estimatedItemSize = boundsSize;
-    self.layout.itemSize = boundsSize;
     
 }
 
-- (void)viewDidLayoutSubviews{
-    [super viewDidLayoutSubviews];
-    
-}
+
 
 #pragma mark - - - - -
 #pragma mark setup data

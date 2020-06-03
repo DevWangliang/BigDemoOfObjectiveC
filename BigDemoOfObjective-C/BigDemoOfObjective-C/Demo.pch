@@ -17,7 +17,7 @@
  拖拽文件进输入框,将项目路径替换为$(SRCROOT)
  */
 //测试是否是第一次打开App 数字依次加1
-#define kIsFirst @"IsFirst2"
+#define kIsFirst @"IsFirst3"
 
 #import "Tools.h"
 

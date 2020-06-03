@@ -19,6 +19,42 @@
  8. dispatch_queue_global_t 可理解成继承于 dispatch_queue_t
  */
 
+/**
+ 
+ 哲学家分叉子问题:资源分配问题=>信号量
+ 
+ 信号量代码解读
+    //创建了初始值为1的信号量,表示当前资源只能支持一个连接端口
+     dispatch_semaphore_t signal = dispatch_semaphore_create(1);
+    //等待时间
+     dispatch_time_t overTime = dispatch_time(DISPATCH_TIME_NOW, 3 * NSEC_PER_SEC);
+    //在并行队列里添加一个异步任务
+     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        //等待:signal > 0(代表资源有空闲可以访问) 或者 等待时间到了才会执行下一步
+         dispatch_semaphore_wait(signal, overTime);
+        //方法主体,执行到这步会消耗一个资源(信号量)(占用一个资源连接端口)
+         sleep(1);
+         NSLog(@"线程1");
+        //发送一个信号量 signal + 1 此线程执行完成了 资源被释放(释放占用端口)
+         dispatch_semaphore_signal(signal);
+         NSLog(@"线程1 = %@",signal);
+     });
+
+    //在并行队列里添加另一个异步任务
+     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+         dispatch_semaphore_wait(signal, overTime);
+         sleep(1);
+         NSLog(@"线程2");
+         dispatch_semaphore_signal(signal);
+         NSLog(@"线程2 = %@",signal);
+     });
+     NSLog(@"线程0");
+     dispatch_semaphore_wait(signal, overTime);
+     NSLog(@"线程0 = %@",signal);
+     dispatch_semaphore_signal(signal);
+     NSLog(@"after 线程0 = %@ ",signal);
+ */
+
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN

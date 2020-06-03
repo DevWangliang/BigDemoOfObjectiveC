@@ -35,6 +35,10 @@
 		EFC8EE60247E487300E331DD /* AboutAmimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE5F247E487300E331DD /* AboutAmimation.m */; };
 		EFC8EE63247F48DA00E331DD /* AboutUIViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE62247F48DA00E331DD /* AboutUIViewAnimation.m */; };
 		EFC8EE67247F5B4F00E331DD /* AboutGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE66247F5B4F00E331DD /* AboutGCD.m */; };
+		EFC8EE6D247FACCC00E331DD /* AboutRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE6C247FACCC00E331DD /* AboutRuntime.m */; };
+		EFC8EE70247FAE0300E331DD /* ChineseLogPretty.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE6F247FAE0300E331DD /* ChineseLogPretty.m */; };
+		EFDB2D982487370900092BA6 /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB2D972487370900092BA6 /* NSString+DES.m */; };
+		EFDB2D9B24873A0E00092BA6 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB2D9A24873A0E00092BA6 /* NSString+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +115,19 @@
 		EFC8EE62247F48DA00E331DD /* AboutUIViewAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUIViewAnimation.m; sourceTree = "<group>"; };
 		EFC8EE65247F5B4F00E331DD /* AboutGCD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutGCD.h; sourceTree = "<group>"; };
 		EFC8EE66247F5B4F00E331DD /* AboutGCD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutGCD.m; sourceTree = "<group>"; };
+		EFC8EE6B247FACCC00E331DD /* AboutRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutRuntime.h; sourceTree = "<group>"; };
+		EFC8EE6C247FACCC00E331DD /* AboutRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutRuntime.m; sourceTree = "<group>"; };
+		EFC8EE6E247FAE0300E331DD /* ChineseLogPretty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChineseLogPretty.h; sourceTree = "<group>"; };
+		EFC8EE6F247FAE0300E331DD /* ChineseLogPretty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChineseLogPretty.m; sourceTree = "<group>"; };
+		EFC8EE7224809C8E00E331DD /* ColdKnowledge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColdKnowledge.h; sourceTree = "<group>"; };
+		EFC8EE7424809F2F00E331DD /* AboutResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutResponder.h; sourceTree = "<group>"; };
+		EFC8EE762480E16C00E331DD /* AboutDebugging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutDebugging.h; sourceTree = "<group>"; };
+		EFDB2D9324862DDB00092BA6 /* AboutObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutObjc.h; sourceTree = "<group>"; };
+		EFDB2D95248726FC00092BA6 /* AboutCocoapods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutCocoapods.h; sourceTree = "<group>"; };
+		EFDB2D962487370900092BA6 /* NSString+DES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DES.h"; sourceTree = "<group>"; };
+		EFDB2D972487370900092BA6 /* NSString+DES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DES.m"; sourceTree = "<group>"; };
+		EFDB2D9924873A0E00092BA6 /* NSString+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		EFDB2D9A24873A0E00092BA6 /* NSString+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +176,12 @@
 		EFC8EDD9247BA02300E331DD = {
 			isa = PBXGroup;
 			children = (
+				EFDB2D94248726E700092BA6 /* Cocoapods */,
+				EFDB2D9224862DC300092BA6 /* Objc */,
+				EFC8EE752480E14E00E331DD /* Debugging */,
+				EFC8EE7324809F0700E331DD /* Responder */,
+				EFC8EE7124809C7A00E331DD /* ColdKnowledge */,
+				EFC8EE6A247FAC6F00E331DD /* RunTime */,
 				EFC8EE64247F5B4000E331DD /* GCD */,
 				EFC8EE5A247E46B600E331DD /* Animation */,
 				EFC8EE21247BA73100E331DD /* Modules */,
@@ -223,6 +246,10 @@
 			children = (
 				EFC8EE3E247BB72600E331DD /* Tools.h */,
 				EFC8EE3F247BB72600E331DD /* Tools.m */,
+				EFDB2D9924873A0E00092BA6 /* NSString+Base64.h */,
+				EFDB2D9A24873A0E00092BA6 /* NSString+Base64.m */,
+				EFDB2D962487370900092BA6 /* NSString+DES.h */,
+				EFDB2D972487370900092BA6 /* NSString+DES.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -391,6 +418,57 @@
 				EFC8EE66247F5B4F00E331DD /* AboutGCD.m */,
 			);
 			path = GCD;
+			sourceTree = "<group>";
+		};
+		EFC8EE6A247FAC6F00E331DD /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE6B247FACCC00E331DD /* AboutRuntime.h */,
+				EFC8EE6C247FACCC00E331DD /* AboutRuntime.m */,
+				EFC8EE6E247FAE0300E331DD /* ChineseLogPretty.h */,
+				EFC8EE6F247FAE0300E331DD /* ChineseLogPretty.m */,
+			);
+			path = RunTime;
+			sourceTree = "<group>";
+		};
+		EFC8EE7124809C7A00E331DD /* ColdKnowledge */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE7224809C8E00E331DD /* ColdKnowledge.h */,
+			);
+			path = ColdKnowledge;
+			sourceTree = "<group>";
+		};
+		EFC8EE7324809F0700E331DD /* Responder */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE7424809F2F00E331DD /* AboutResponder.h */,
+			);
+			path = Responder;
+			sourceTree = "<group>";
+		};
+		EFC8EE752480E14E00E331DD /* Debugging */ = {
+			isa = PBXGroup;
+			children = (
+				EFC8EE762480E16C00E331DD /* AboutDebugging.h */,
+			);
+			path = Debugging;
+			sourceTree = "<group>";
+		};
+		EFDB2D9224862DC300092BA6 /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB2D9324862DDB00092BA6 /* AboutObjc.h */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
+		EFDB2D94248726E700092BA6 /* Cocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB2D95248726FC00092BA6 /* AboutCocoapods.h */,
+			);
+			path = Cocoapods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -569,6 +647,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC8EE70247FAE0300E331DD /* ChineseLogPretty.m in Sources */,
 				EFC8EDE7247BA02300E331DD /* AppDelegate.m in Sources */,
 				EFC8EE36247BAEBF00E331DD /* LaunchViewController.m in Sources */,
 				EFC8EDF8247BA02600E331DD /* main.m in Sources */,
@@ -576,12 +655,15 @@
 				EFC8EE3B247BB3C500E331DD /* LoginViewController.m in Sources */,
 				EFC8EE32247BA82800E331DD /* SettingsViewController.m in Sources */,
 				EFC8EE67247F5B4F00E331DD /* AboutGCD.m in Sources */,
+				EFDB2D982487370900092BA6 /* NSString+DES.m in Sources */,
 				EFC8EE53247D0A8100E331DD /* BaseViewController.m in Sources */,
 				EFC8EE20247BA70600E331DD /* MainViewController.m in Sources */,
 				EFC8EE63247F48DA00E331DD /* AboutUIViewAnimation.m in Sources */,
+				EFDB2D9B24873A0E00092BA6 /* NSString+Base64.m in Sources */,
 				EFC8EE40247BB72600E331DD /* Tools.m in Sources */,
 				EFC8EE56247D11D200E331DD /* CustomTabBar.m in Sources */,
 				EFC8EDEA247BA02300E331DD /* SceneDelegate.m in Sources */,
+				EFC8EE6D247FACCC00E331DD /* AboutRuntime.m in Sources */,
 				EFC8EE60247E487300E331DD /* AboutAmimation.m in Sources */,
 				EFC8EE59247DEAA700E331DD /* Person.m in Sources */,
 				EFC8EE2F247BA81600E331DD /* AddressTreeViewController.m in Sources */,

@@ -13,7 +13,7 @@
 @interface AppDelegate ()
 
 @end
-
+typedef void(^TestBlock)(NSArray *arr);
 @implementation AppDelegate
 
 
@@ -32,10 +32,19 @@
     [self setTheme];
     self.window.backgroundColor = UIColor.whiteColor;
 //    [self testArchive];
+    NSArray *arr = [NSArray array];
     
-    
-    
+    TestBlock block = ^(NSArray *arr) {
+        NSLog(@"block arr = %p",&arr);
+        [self blockMethod:arr];
+    };
+    NSLog(@"arr = %p",&arr);
+    block(arr);
     return YES;
+}
+
+- (void)blockMethod:(NSArray *)arr {
+    NSLog(@"blockMethod arr = %p",&arr);
 }
 
 - (void)testArchive{

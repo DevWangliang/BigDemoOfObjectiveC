@@ -122,12 +122,16 @@
 		EFC8EE7224809C8E00E331DD /* ColdKnowledge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColdKnowledge.h; sourceTree = "<group>"; };
 		EFC8EE7424809F2F00E331DD /* AboutResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutResponder.h; sourceTree = "<group>"; };
 		EFC8EE762480E16C00E331DD /* AboutDebugging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutDebugging.h; sourceTree = "<group>"; };
+		EFC96E59249721AD00CB72D2 /* JSBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSBridge.h; sourceTree = "<group>"; };
 		EFDB2D9324862DDB00092BA6 /* AboutObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutObjc.h; sourceTree = "<group>"; };
 		EFDB2D95248726FC00092BA6 /* AboutCocoapods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutCocoapods.h; sourceTree = "<group>"; };
 		EFDB2D962487370900092BA6 /* NSString+DES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DES.h"; sourceTree = "<group>"; };
 		EFDB2D972487370900092BA6 /* NSString+DES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DES.m"; sourceTree = "<group>"; };
 		EFDB2D9924873A0E00092BA6 /* NSString+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
 		EFDB2D9A24873A0E00092BA6 /* NSString+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		EFDB2DD92487A25D00092BA6 /* AboutHomeBrew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutHomeBrew.h; sourceTree = "<group>"; };
+		EFDB2DDC2487A2CA00092BA6 /* AboutJenkins.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutJenkins.h; sourceTree = "<group>"; };
+		EFDB2DDD2487A2DE00092BA6 /* AboutFastlane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutFastlane.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,10 @@
 		EFC8EDD9247BA02300E331DD = {
 			isa = PBXGroup;
 			children = (
+				EFC96E582497218600CB72D2 /* JSBridge */,
+				EFDB2DDB2487A2B400092BA6 /* Jenkins */,
+				EFDB2DDA2487A2AD00092BA6 /* Fastlane */,
+				EFDB2DD82487A24600092BA6 /* HomeBrew */,
 				EFDB2D94248726E700092BA6 /* Cocoapods */,
 				EFDB2D9224862DC300092BA6 /* Objc */,
 				EFC8EE752480E14E00E331DD /* Debugging */,
@@ -455,6 +463,14 @@
 			path = Debugging;
 			sourceTree = "<group>";
 		};
+		EFC96E582497218600CB72D2 /* JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				EFC96E59249721AD00CB72D2 /* JSBridge.h */,
+			);
+			path = JSBridge;
+			sourceTree = "<group>";
+		};
 		EFDB2D9224862DC300092BA6 /* Objc */ = {
 			isa = PBXGroup;
 			children = (
@@ -469,6 +485,30 @@
 				EFDB2D95248726FC00092BA6 /* AboutCocoapods.h */,
 			);
 			path = Cocoapods;
+			sourceTree = "<group>";
+		};
+		EFDB2DD82487A24600092BA6 /* HomeBrew */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB2DD92487A25D00092BA6 /* AboutHomeBrew.h */,
+			);
+			path = HomeBrew;
+			sourceTree = "<group>";
+		};
+		EFDB2DDA2487A2AD00092BA6 /* Fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB2DDD2487A2DE00092BA6 /* AboutFastlane.h */,
+			);
+			path = Fastlane;
+			sourceTree = "<group>";
+		};
+		EFDB2DDB2487A2B400092BA6 /* Jenkins */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB2DDC2487A2CA00092BA6 /* AboutJenkins.h */,
+			);
+			path = Jenkins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

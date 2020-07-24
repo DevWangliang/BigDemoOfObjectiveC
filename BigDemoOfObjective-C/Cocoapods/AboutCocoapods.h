@@ -63,3 +63,8 @@
     end
  end
  */
+
+/**
+ 问题1:You don't have write permissions for the /usr/bin directory.
+        sudo gem install cocoapods -n /usr/local/bin
+ */

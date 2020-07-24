@@ -4,7 +4,7 @@
     po: print object
     expression:打印或修改值 expression width or expression width = 100
         print 其实是expression -- 的简写
-        e.g:// 改变颜色
+        e.g.:// 改变颜色
         (lldb) expression -- self.view.backgroundColor = [UIColor redColor]
         // 刷新界面
         (lldb) expression -- (void)[CATransaction flush]

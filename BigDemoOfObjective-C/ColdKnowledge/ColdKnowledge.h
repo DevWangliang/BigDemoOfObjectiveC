@@ -34,6 +34,9 @@
     <true/>
     </dict>
  
- 
+ 12.常用组件化方案:
+    a.Target-Action
+    b.URL Scheme
+    c.Protocal-Class
  
  */

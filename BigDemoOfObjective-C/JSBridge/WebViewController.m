@@ -73,8 +73,8 @@
     /// 注册的监听必须是一开始就添加的,不能动态添加,
     /// 如果想实时交互就要拦截alert,confirm等弹窗
 - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message {
-    NSLog(@"%@",NSStringFromSelector(_cmd));
-    NSLog(@"%@",message.body);
+    Log(@"%@",NSStringFromSelector(_cmd));
+    Log(@"%@",message.body);
     
     if ([message.name isEqualToString:@"showMobile"]) {
         [self showMsg:@"没有参数"];
@@ -103,7 +103,7 @@
 - (void)noParameters:(id)sender {
     [self.webView evaluateJavaScript:@"alertMobile()" completionHandler:^(id _Nullable response, NSError * _Nullable error) {
         //JS 返回结果
-        NSLog(@"%@ %@",response,error);
+        Log(@"%@ %@",response,error);
     }];
 
     
@@ -144,17 +144,17 @@
 
 - (void)webView:(WKWebView *)webView runJavaScriptAlertPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(void))completionHandler {
 //    DDLogMessage(@"");
-    NSLog(@"");
+    Log(@"");
     completionHandler();
 }
 
 - (void)webView:(WKWebView *)webView runJavaScriptConfirmPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(BOOL))completionHandler {
-    NSLog(@"");
+    Log(@"");
     completionHandler(false);
 }
 
 - (void)webView:(WKWebView *)webView runJavaScriptTextInputPanelWithPrompt:(NSString *)prompt defaultText:(NSString *)defaultText initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(NSString * _Nullable))completionHandler {
-    NSLog(@"");
+    Log(@"");
     completionHandler(@"result!!!");
 }
 

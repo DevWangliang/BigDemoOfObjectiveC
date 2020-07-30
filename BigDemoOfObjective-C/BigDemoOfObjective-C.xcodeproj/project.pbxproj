@@ -10,6 +10,26 @@
 		61D76C7E543A2DB1C3FC0F76 /* Pods_BigDemoOfObjective_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCFCBEFF46B5A246C9F5AEE /* Pods_BigDemoOfObjective_C.framework */; };
 		EF3FF95724CA661900842C87 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = EF3FF95624CA661900842C87 /* index.html */; };
 		EF3FF95A24CA665C00842C87 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF95924CA665C00842C87 /* WebViewController.m */; };
+		EF3FF95D24CE5A9000842C87 /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = EF3FF95C24CE5A9000842C87 /* model.json */; };
+		EF3FF96224CE5D4800842C87 /* Stockinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF96124CE5D4800842C87 /* Stockinfo.m */; };
+		EF3FF96524CE5D5F00842C87 /* Addressinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF96424CE5D5F00842C87 /* Addressinfo.m */; };
+		EF3FF96824CE5D6F00842C87 /* Taskstate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF96724CE5D6F00842C87 /* Taskstate.m */; };
+		EF3FF96B24CE5D7B00842C87 /* Taskinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF96A24CE5D7B00842C87 /* Taskinfo.m */; };
+		EF3FF96E24CE5D9F00842C87 /* Dept.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF96D24CE5D9F00842C87 /* Dept.m */; };
+		EF3FF97124CE5DA700842C87 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF97024CE5DA700842C87 /* User.m */; };
+		EF3FF97424CE5DB600842C87 /* ModelInYY.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF97324CE5DB600842C87 /* ModelInYY.m */; };
+		EF3FF97724CE700D00842C87 /* YYModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF97624CE700D00842C87 /* YYModelTest.m */; };
+		EF3FF97A24CE9E4200842C87 /* MantleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF97924CE9E4200842C87 /* MantleTest.m */; };
+		EF3FF97D24CE9EE600842C87 /* ModelInMantle.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF97C24CE9EE600842C87 /* ModelInMantle.m */; };
+		EF3FF98024CE9EFD00842C87 /* MStockInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF97F24CE9EFD00842C87 /* MStockInfo.m */; };
+		EF3FF98324CE9F0900842C87 /* MAddressInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF98224CE9F0900842C87 /* MAddressInfo.m */; };
+		EF3FF98624CE9F1B00842C87 /* MTaskState.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF98524CE9F1B00842C87 /* MTaskState.m */; };
+		EF3FF98924CE9F2600842C87 /* MTaskInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF98824CE9F2600842C87 /* MTaskInfo.m */; };
+		EF3FF98C24CE9F3200842C87 /* MDept.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF98B24CE9F3200842C87 /* MDept.m */; };
+		EF3FF98F24CE9F3C00842C87 /* MUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF98E24CE9F3C00842C87 /* MUser.m */; };
+		EF3FF99324CFA9E400842C87 /* RefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF99224CFA9E400842C87 /* RefreshTableViewController.m */; };
+		EF7E9D1524D0FF4E00299070 /* RequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7E9D1424D0FF4E00299070 /* RequestConfig.m */; };
+		EFA4160424CFFF93009ECD7F /* RequestCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA4160324CFFF93009ECD7F /* RequestCenter.m */; };
 		EFC8EDE7247BA02300E331DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EDE6247BA02300E331DD /* AppDelegate.m */; };
 		EFC8EDEA247BA02300E331DD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EDE9247BA02300E331DD /* SceneDelegate.m */; };
 		EFC8EDF0247BA02300E331DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC8EDEE247BA02300E331DD /* Main.storyboard */; };
@@ -41,6 +61,7 @@
 		EFC8EE70247FAE0300E331DD /* ChineseLogPretty.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE6F247FAE0300E331DD /* ChineseLogPretty.m */; };
 		EFDB2D982487370900092BA6 /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB2D972487370900092BA6 /* NSString+DES.m */; };
 		EFDB2D9B24873A0E00092BA6 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB2D9A24873A0E00092BA6 /* NSString+Base64.m */; };
+		EFFF220224D14FB3008C4B0A /* UploadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFF220124D14FB3008C4B0A /* UploadTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +89,45 @@
 		EF3FF95624CA661900842C87 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		EF3FF95824CA665C00842C87 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		EF3FF95924CA665C00842C87 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		EF3FF95C24CE5A9000842C87 /* model.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = model.json; sourceTree = "<group>"; };
+		EF3FF96024CE5D4800842C87 /* Stockinfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stockinfo.h; sourceTree = "<group>"; };
+		EF3FF96124CE5D4800842C87 /* Stockinfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stockinfo.m; sourceTree = "<group>"; };
+		EF3FF96324CE5D5F00842C87 /* Addressinfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Addressinfo.h; sourceTree = "<group>"; };
+		EF3FF96424CE5D5F00842C87 /* Addressinfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Addressinfo.m; sourceTree = "<group>"; };
+		EF3FF96624CE5D6F00842C87 /* Taskstate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Taskstate.h; sourceTree = "<group>"; };
+		EF3FF96724CE5D6F00842C87 /* Taskstate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taskstate.m; sourceTree = "<group>"; };
+		EF3FF96924CE5D7B00842C87 /* Taskinfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Taskinfo.h; sourceTree = "<group>"; };
+		EF3FF96A24CE5D7B00842C87 /* Taskinfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taskinfo.m; sourceTree = "<group>"; };
+		EF3FF96C24CE5D9F00842C87 /* Dept.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dept.h; sourceTree = "<group>"; };
+		EF3FF96D24CE5D9F00842C87 /* Dept.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dept.m; sourceTree = "<group>"; };
+		EF3FF96F24CE5DA700842C87 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		EF3FF97024CE5DA700842C87 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		EF3FF97224CE5DB600842C87 /* ModelInYY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelInYY.h; sourceTree = "<group>"; };
+		EF3FF97324CE5DB600842C87 /* ModelInYY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelInYY.m; sourceTree = "<group>"; };
+		EF3FF97524CE700D00842C87 /* YYModelTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYModelTest.h; sourceTree = "<group>"; };
+		EF3FF97624CE700D00842C87 /* YYModelTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYModelTest.m; sourceTree = "<group>"; };
+		EF3FF97824CE9E4200842C87 /* MantleTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MantleTest.h; sourceTree = "<group>"; };
+		EF3FF97924CE9E4200842C87 /* MantleTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MantleTest.m; sourceTree = "<group>"; };
+		EF3FF97B24CE9EE600842C87 /* ModelInMantle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelInMantle.h; sourceTree = "<group>"; };
+		EF3FF97C24CE9EE600842C87 /* ModelInMantle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelInMantle.m; sourceTree = "<group>"; };
+		EF3FF97E24CE9EFD00842C87 /* MStockInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MStockInfo.h; sourceTree = "<group>"; };
+		EF3FF97F24CE9EFD00842C87 /* MStockInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MStockInfo.m; sourceTree = "<group>"; };
+		EF3FF98124CE9F0900842C87 /* MAddressInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAddressInfo.h; sourceTree = "<group>"; };
+		EF3FF98224CE9F0900842C87 /* MAddressInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAddressInfo.m; sourceTree = "<group>"; };
+		EF3FF98424CE9F1B00842C87 /* MTaskState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTaskState.h; sourceTree = "<group>"; };
+		EF3FF98524CE9F1B00842C87 /* MTaskState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTaskState.m; sourceTree = "<group>"; };
+		EF3FF98724CE9F2600842C87 /* MTaskInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTaskInfo.h; sourceTree = "<group>"; };
+		EF3FF98824CE9F2600842C87 /* MTaskInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTaskInfo.m; sourceTree = "<group>"; };
+		EF3FF98A24CE9F3200842C87 /* MDept.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDept.h; sourceTree = "<group>"; };
+		EF3FF98B24CE9F3200842C87 /* MDept.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDept.m; sourceTree = "<group>"; };
+		EF3FF98D24CE9F3C00842C87 /* MUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUser.h; sourceTree = "<group>"; };
+		EF3FF98E24CE9F3C00842C87 /* MUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUser.m; sourceTree = "<group>"; };
+		EF3FF99124CFA9E400842C87 /* RefreshTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshTableViewController.h; sourceTree = "<group>"; };
+		EF3FF99224CFA9E400842C87 /* RefreshTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshTableViewController.m; sourceTree = "<group>"; };
+		EF7E9D1324D0FF4E00299070 /* RequestConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestConfig.h; sourceTree = "<group>"; };
+		EF7E9D1424D0FF4E00299070 /* RequestConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestConfig.m; sourceTree = "<group>"; };
+		EFA4160224CFFF93009ECD7F /* RequestCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestCenter.h; sourceTree = "<group>"; };
+		EFA4160324CFFF93009ECD7F /* RequestCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestCenter.m; sourceTree = "<group>"; };
 		EFC8EDE2247BA02300E331DD /* OC示例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC示例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC8EDE5247BA02300E331DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFC8EDE6247BA02300E331DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,7 +159,6 @@
 		EFC8EE3C247BB53300E331DD /* LaunchViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchViewController.storyboard; sourceTree = "<group>"; };
 		EFC8EE3E247BB72600E331DD /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
 		EFC8EE3F247BB72600E331DD /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
-		EFC8EE42247BB82000E331DD /* Demo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo.pch; sourceTree = "<group>"; };
 		EFC8EE44247BC6D200E331DD /* LaunchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchCell.h; sourceTree = "<group>"; };
 		EFC8EE45247BC6D200E331DD /* LaunchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchCell.m; sourceTree = "<group>"; };
 		EFC8EE48247BC98E00E331DD /* LaunchModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchModel.h; sourceTree = "<group>"; };
@@ -138,6 +197,10 @@
 		EFDB2DD92487A25D00092BA6 /* AboutHomeBrew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutHomeBrew.h; sourceTree = "<group>"; };
 		EFDB2DDC2487A2CA00092BA6 /* AboutJenkins.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutJenkins.h; sourceTree = "<group>"; };
 		EFDB2DDD2487A2DE00092BA6 /* AboutFastlane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutFastlane.h; sourceTree = "<group>"; };
+		EFFF220024D14FB3008C4B0A /* UploadTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UploadTest.h; sourceTree = "<group>"; };
+		EFFF220124D14FB3008C4B0A /* UploadTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadTest.m; sourceTree = "<group>"; };
+		EFFF220424D2565A008C4B0A /* OCDemoMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCDemoMacros.h; sourceTree = "<group>"; };
+		EFFF220824D25AEC008C4B0A /* OCDemoHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDemoHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,14 +249,97 @@
 		EF3FF95224C92BC500842C87 /* SomePodsUsedALot */ = {
 			isa = PBXGroup;
 			children = (
+				EFA4160124CFFF6F009ECD7F /* AFNetWorking */,
+				EF3FF99024CEC52000842C87 /* MJRefresh */,
+				EF3FF95B24CE5A4B00842C87 /* AboutModels */,
 				EF3FF95324C9305600842C87 /* OtherPods.h */,
 			);
 			path = SomePodsUsedALot;
 			sourceTree = "<group>";
 		};
+		EF3FF95B24CE5A4B00842C87 /* AboutModels */ = {
+			isa = PBXGroup;
+			children = (
+				EF3FF95F24CE5ABE00842C87 /* YYModel */,
+				EF3FF95E24CE5AB100842C87 /* Mantle */,
+				EF3FF95C24CE5A9000842C87 /* model.json */,
+			);
+			path = AboutModels;
+			sourceTree = "<group>";
+		};
+		EF3FF95E24CE5AB100842C87 /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				EF3FF97824CE9E4200842C87 /* MantleTest.h */,
+				EF3FF97924CE9E4200842C87 /* MantleTest.m */,
+				EF3FF97B24CE9EE600842C87 /* ModelInMantle.h */,
+				EF3FF97C24CE9EE600842C87 /* ModelInMantle.m */,
+				EF3FF97E24CE9EFD00842C87 /* MStockInfo.h */,
+				EF3FF97F24CE9EFD00842C87 /* MStockInfo.m */,
+				EF3FF98124CE9F0900842C87 /* MAddressInfo.h */,
+				EF3FF98224CE9F0900842C87 /* MAddressInfo.m */,
+				EF3FF98424CE9F1B00842C87 /* MTaskState.h */,
+				EF3FF98524CE9F1B00842C87 /* MTaskState.m */,
+				EF3FF98724CE9F2600842C87 /* MTaskInfo.h */,
+				EF3FF98824CE9F2600842C87 /* MTaskInfo.m */,
+				EF3FF98A24CE9F3200842C87 /* MDept.h */,
+				EF3FF98B24CE9F3200842C87 /* MDept.m */,
+				EF3FF98D24CE9F3C00842C87 /* MUser.h */,
+				EF3FF98E24CE9F3C00842C87 /* MUser.m */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		EF3FF95F24CE5ABE00842C87 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF3FF97524CE700D00842C87 /* YYModelTest.h */,
+				EF3FF97624CE700D00842C87 /* YYModelTest.m */,
+				EF3FF97224CE5DB600842C87 /* ModelInYY.h */,
+				EF3FF97324CE5DB600842C87 /* ModelInYY.m */,
+				EF3FF96024CE5D4800842C87 /* Stockinfo.h */,
+				EF3FF96124CE5D4800842C87 /* Stockinfo.m */,
+				EF3FF96324CE5D5F00842C87 /* Addressinfo.h */,
+				EF3FF96424CE5D5F00842C87 /* Addressinfo.m */,
+				EF3FF96624CE5D6F00842C87 /* Taskstate.h */,
+				EF3FF96724CE5D6F00842C87 /* Taskstate.m */,
+				EF3FF96924CE5D7B00842C87 /* Taskinfo.h */,
+				EF3FF96A24CE5D7B00842C87 /* Taskinfo.m */,
+				EF3FF96C24CE5D9F00842C87 /* Dept.h */,
+				EF3FF96D24CE5D9F00842C87 /* Dept.m */,
+				EF3FF96F24CE5DA700842C87 /* User.h */,
+				EF3FF97024CE5DA700842C87 /* User.m */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		EF3FF99024CEC52000842C87 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				EF3FF99124CFA9E400842C87 /* RefreshTableViewController.h */,
+				EF3FF99224CFA9E400842C87 /* RefreshTableViewController.m */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		EFA4160124CFFF6F009ECD7F /* AFNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				EFA4160224CFFF93009ECD7F /* RequestCenter.h */,
+				EFA4160324CFFF93009ECD7F /* RequestCenter.m */,
+				EF7E9D1324D0FF4E00299070 /* RequestConfig.h */,
+				EF7E9D1424D0FF4E00299070 /* RequestConfig.m */,
+				EFFF220024D14FB3008C4B0A /* UploadTest.h */,
+				EFFF220124D14FB3008C4B0A /* UploadTest.m */,
+			);
+			path = AFNetWorking;
+			sourceTree = "<group>";
+		};
 		EFC8EDD9247BA02300E331DD = {
 			isa = PBXGroup;
 			children = (
+				EFFF220624D257A1008C4B0A /* AboutPCHFile */,
+				EFFF220324D255F8008C4B0A /* Macros */,
 				EF3FF95224C92BC500842C87 /* SomePodsUsedALot */,
 				EFC96E582497218600CB72D2 /* JSBridge */,
 				EFDB2DDB2487A2B400092BA6 /* Jenkins */,
@@ -241,7 +387,6 @@
 				EFC8EDF3247BA02600E331DD /* LaunchScreen.storyboard */,
 				EFC8EDF6247BA02600E331DD /* Info.plist */,
 				EFC8EDF7247BA02600E331DD /* main.m */,
-				EFC8EE42247BB82000E331DD /* Demo.pch */,
 			);
 			path = "BigDemoOfObjective-C";
 			sourceTree = "<group>";
@@ -529,6 +674,22 @@
 			path = Jenkins;
 			sourceTree = "<group>";
 		};
+		EFFF220324D255F8008C4B0A /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF220424D2565A008C4B0A /* OCDemoMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		EFFF220624D257A1008C4B0A /* AboutPCHFile */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF220824D25AEC008C4B0A /* OCDemoHeader.pch */,
+			);
+			path = AboutPCHFile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -636,6 +797,7 @@
 			files = (
 				EFC8EE3D247BB53300E331DD /* LaunchViewController.storyboard in Resources */,
 				EFC8EDF5247BA02600E331DD /* LaunchScreen.storyboard in Resources */,
+				EF3FF95D24CE5A9000842C87 /* model.json in Resources */,
 				EFC8EE4C247CAC5900E331DD /* LaunchCell.xib in Resources */,
 				EF3FF95724CA661900842C87 /* index.html in Resources */,
 				EFC8EDF2247BA02600E331DD /* Assets.xcassets in Resources */,
@@ -708,7 +870,10 @@
 			files = (
 				EFC8EE70247FAE0300E331DD /* ChineseLogPretty.m in Sources */,
 				EFC8EDE7247BA02300E331DD /* AppDelegate.m in Sources */,
+				EFFF220224D14FB3008C4B0A /* UploadTest.m in Sources */,
+				EF3FF96524CE5D5F00842C87 /* Addressinfo.m in Sources */,
 				EFC8EE36247BAEBF00E331DD /* LaunchViewController.m in Sources */,
+				EF3FF98C24CE9F3200842C87 /* MDept.m in Sources */,
 				EFC8EDF8247BA02600E331DD /* main.m in Sources */,
 				EFC8EE5D247E471500E331DD /* AboutCALayer.m in Sources */,
 				EFC8EE3B247BB3C500E331DD /* LoginViewController.m in Sources */,
@@ -716,20 +881,37 @@
 				EFC8EE67247F5B4F00E331DD /* AboutGCD.m in Sources */,
 				EFDB2D982487370900092BA6 /* NSString+DES.m in Sources */,
 				EFC8EE53247D0A8100E331DD /* BaseViewController.m in Sources */,
+				EF3FF97124CE5DA700842C87 /* User.m in Sources */,
 				EFC8EE20247BA70600E331DD /* MainViewController.m in Sources */,
+				EF3FF98324CE9F0900842C87 /* MAddressInfo.m in Sources */,
 				EFC8EE63247F48DA00E331DD /* AboutUIViewAnimation.m in Sources */,
 				EFDB2D9B24873A0E00092BA6 /* NSString+Base64.m in Sources */,
+				EF3FF96824CE5D6F00842C87 /* Taskstate.m in Sources */,
 				EFC8EE40247BB72600E331DD /* Tools.m in Sources */,
+				EF3FF96224CE5D4800842C87 /* Stockinfo.m in Sources */,
 				EFC8EE56247D11D200E331DD /* CustomTabBar.m in Sources */,
+				EF3FF98624CE9F1B00842C87 /* MTaskState.m in Sources */,
+				EF3FF96B24CE5D7B00842C87 /* Taskinfo.m in Sources */,
+				EFA4160424CFFF93009ECD7F /* RequestCenter.m in Sources */,
 				EFC8EDEA247BA02300E331DD /* SceneDelegate.m in Sources */,
+				EF3FF96E24CE5D9F00842C87 /* Dept.m in Sources */,
 				EFC8EE6D247FACCC00E331DD /* AboutRuntime.m in Sources */,
+				EF3FF97424CE5DB600842C87 /* ModelInYY.m in Sources */,
+				EF3FF98F24CE9F3C00842C87 /* MUser.m in Sources */,
+				EF7E9D1524D0FF4E00299070 /* RequestConfig.m in Sources */,
+				EF3FF98024CE9EFD00842C87 /* MStockInfo.m in Sources */,
 				EFC8EE60247E487300E331DD /* AboutAmimation.m in Sources */,
 				EFC8EE59247DEAA700E331DD /* Person.m in Sources */,
 				EFC8EE2F247BA81600E331DD /* AddressTreeViewController.m in Sources */,
+				EF3FF98924CE9F2600842C87 /* MTaskInfo.m in Sources */,
 				EFC8EE46247BC6D200E331DD /* LaunchCell.m in Sources */,
 				EF3FF95A24CA665C00842C87 /* WebViewController.m in Sources */,
+				EF3FF99324CFA9E400842C87 /* RefreshTableViewController.m in Sources */,
 				EFC8EE4F247D064A00E331DD /* BaseNavigationViewController.m in Sources */,
+				EF3FF97724CE700D00842C87 /* YYModelTest.m in Sources */,
 				EFC8EE4A247BC98E00E331DD /* LaunchModel.m in Sources */,
+				EF3FF97A24CE9E4200842C87 /* MantleTest.m in Sources */,
+				EF3FF97D24CE9EE600842C87 /* ModelInMantle.m in Sources */,
 				EFC8EE24247BA76200E331DD /* WorkViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -902,7 +1084,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/BigDemoOfObjective-C/Demo.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AboutPCHFile/OCDemoHeader.pch";
 				INFOPLIST_FILE = "BigDemoOfObjective-C/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -922,7 +1104,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/BigDemoOfObjective-C/Demo.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AboutPCHFile/OCDemoHeader.pch";
 				INFOPLIST_FILE = "BigDemoOfObjective-C/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

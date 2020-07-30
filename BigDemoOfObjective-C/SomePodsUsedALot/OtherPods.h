@@ -5,6 +5,8 @@
 2.IQKeyboardManager
     https://github.com/hackiftekhar/IQKeyboardManager
     键盘管理
+    //oc中全自动 swift中需在AppDelegate中添加
+    //IQKeyboardManager.shared.enable = true
 
 3.KVOController
     https://github.com/facebookarchive/KVOController
@@ -12,4 +14,4 @@
 
 4.SmartPush
     https://github.com/shaojiankui/SmartPush
-    模拟推送
+    //模拟推送

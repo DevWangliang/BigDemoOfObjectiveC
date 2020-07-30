@@ -52,11 +52,11 @@
                                           buffer, 1024,
                                           &numBytesEncrypted);
     if (cryptStatus == kCCSuccess) {
-        //NSLog(@"DES解密成功");
+        //Log(@"DES解密成功");
         NSData *data = [NSData dataWithBytes:buffer length:(NSUInteger)numBytesEncrypted];
         cleartext = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     }else{
-        //NSLog(@"DES解密失败");
+        //Log(@"DES解密失败");
     }
     return cleartext;
 }
@@ -106,13 +106,13 @@
             int_ch2 = hex_char2-87; //// a 的Ascll - 97
         
         int_ch = int_ch1+int_ch2;
-        //NSLog(@"int_ch=%x",int_ch);
+        //Log(@"int_ch=%x",int_ch);
         bytes[j] = int_ch;  ///将转化后的数放入Byte数组里
         j++;
     }
     //    NSData *newData = [[NSData alloc] initWithBytes:bytes length:j];
     NSData *newData = [[NSData alloc] initWithBytes:bytes length:j];
-    //NSLog(@"newData=%@",newData);
+    //Log(@"newData=%@",newData);
     return newData;
 }
 

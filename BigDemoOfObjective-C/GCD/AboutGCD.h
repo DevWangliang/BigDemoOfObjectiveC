@@ -34,25 +34,25 @@
          dispatch_semaphore_wait(signal, overTime);
         //方法主体,执行到这步会消耗一个资源(信号量)(占用一个资源连接端口)
          sleep(1);
-         NSLog(@"线程1");
+         Log(@"线程1");
         //发送一个信号量 signal + 1 此线程执行完成了 资源被释放(释放占用端口)
          dispatch_semaphore_signal(signal);
-         NSLog(@"线程1 = %@",signal);
+         Log(@"线程1 = %@",signal);
      });
 
     //在并行队列里添加另一个异步任务
      dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
          dispatch_semaphore_wait(signal, overTime);
          sleep(1);
-         NSLog(@"线程2");
+         Log(@"线程2");
          dispatch_semaphore_signal(signal);
-         NSLog(@"线程2 = %@",signal);
+         Log(@"线程2 = %@",signal);
      });
-     NSLog(@"线程0");
+     Log(@"线程0");
      dispatch_semaphore_wait(signal, overTime);
-     NSLog(@"线程0 = %@",signal);
+     Log(@"线程0 = %@",signal);
      dispatch_semaphore_signal(signal);
-     NSLog(@"after 线程0 = %@ ",signal);
+     Log(@"after 线程0 = %@ ",signal);
  */
 
 #import <Foundation/Foundation.h>

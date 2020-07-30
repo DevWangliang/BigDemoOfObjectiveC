@@ -22,12 +22,12 @@
 
 
  - (void)doSth {
-     NSLog(@"doSth");
+     Log(@"doSth");
  //    [self doSth];
  }
 
  - (void)doOther {
-     NSLog(@"doOther");
+     Log(@"doOther");
      [self doOther];
  }
 

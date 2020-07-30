@@ -1,13 +1,13 @@
 //
-//  Demo.pch
+//  OCDemoHeader.pch
 //  BigDemoOfObjective-C
 //
-//  Created by 王亮 on 2020/5/25.
+//  Created by 王亮 on 2020/7/30.
 //  Copyright © 2020 DevWangLiang. All rights reserved.
 //
 
-#ifndef Demo_pch
-#define Demo_pch
+#ifndef OCDemoHeader_pch
+#define OCDemoHeader_pch
 
 // 添加pch文件注意
 /**
@@ -20,6 +20,7 @@
 #define kIsFirst @"IsFirst3"
 
 #import "Tools.h"
+#import "OCDemoMacros.h"
 
 
-#endif /* Demo_pch */
+#endif /* OCDemoHeader_pch */

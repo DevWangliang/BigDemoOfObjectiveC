@@ -12,5 +12,8 @@ target 'BigDemoOfObjective-C' do
   pod 'Masonry', '~> 1.1.0'
   pod 'CocoaLumberjack'
   pod 'IQKeyboardManager'
+  pod 'Mantle'
+  pod 'YYModel'
+  pod 'MJRefresh'
   
 end

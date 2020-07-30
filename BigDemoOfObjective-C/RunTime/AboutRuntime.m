@@ -38,6 +38,16 @@
 //- (NSString *)name {
 //    return objc_getAssociatedObject(self, @"name");
 //}
+/**
+ 更好的写法
+ - (void)setSalary:(NSString *)salary {
+     objc_setAssociatedObject(self, @selector(salary), salary, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+ }
+
+ - (NSString *)salary {
+     return objc_getAssociatedObject(self, _cmd);
+ }
+ */
 
 #pragma mark - 动态添加方法
 //- (void)buttonClick:(UIButton *)sender {

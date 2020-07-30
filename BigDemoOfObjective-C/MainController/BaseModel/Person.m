@@ -49,9 +49,9 @@
     NSData *archivedData = [NSKeyedArchiver archivedDataWithRootObject:personArray requiringSecureCoding:YES error:&error];
     [archivedData writeToFile:path atomically:YES];
     if (error) {
-        NSLog(@"error = %@",error);
+        Log(@"error = %@",error);
     }
-    NSLog(@"archive path = %@",path);
+    Log(@"archive path = %@",path);
 }
 
 + (NSArray *)unarchive{
@@ -60,7 +60,7 @@
 #warning unarchivedObjectOfClass适用于只有单个类的场景 当前场景下有Array和Person两个类
     NSArray *personArray = [NSKeyedUnarchiver unarchivedObjectOfClasses:[NSSet setWithObjects:[NSArray class],[self class], nil] fromData:[NSData dataWithContentsOfFile:path] error:&error];//[NSKeyedUnarchiver unarchivedObjectOfClass:[Person class] fromData:[NSData dataWithContentsOfFile:path] error:&error];
     if (error) {
-        NSLog(@"unarchive error = %@",error);
+        Log(@"unarchive error = %@",error);
         return nil;
     }
     return personArray;

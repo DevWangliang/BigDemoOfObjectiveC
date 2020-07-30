@@ -35,16 +35,16 @@ typedef void(^TestBlock)(NSArray *arr);
     NSArray *arr = [NSArray array];
     
     TestBlock block = ^(NSArray *arr) {
-        NSLog(@"block arr = %p",&arr);
+        Log(@"block arr = %p",&arr);
         [self blockMethod:arr];
     };
-    NSLog(@"arr = %p",&arr);
+    Log(@"arr = %p",&arr);
     block(arr);
     return YES;
 }
 
 - (void)blockMethod:(NSArray *)arr {
-    NSLog(@"blockMethod arr = %p",&arr);
+    Log(@"blockMethod arr = %p",&arr);
 }
 
 - (void)testArchive{
@@ -70,7 +70,7 @@ typedef void(^TestBlock)(NSArray *arr);
     [Person archive:personArr];
     
     NSArray *person = [Person unarchive];
-    NSLog(@"person unarchive = %@",person);
+    Log(@"person unarchive = %@",person);
 }
 
 - (void)switchRootController{

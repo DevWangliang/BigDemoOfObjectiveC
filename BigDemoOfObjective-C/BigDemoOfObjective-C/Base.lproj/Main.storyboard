@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HD2-bE-y3u">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HD2-bE-y3u">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -35,7 +35,42 @@
                     <view key="view" alpha="0.69999999999999996" contentMode="scaleToFill" id="0LW-Nh-v7o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJW-w5-ZZp">
+                                <rect key="frame" x="40" y="148" width="334" height="60"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="v6x-K5-9m4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="MJRefresh">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goMJRefresh:" destination="Beu-qY-uwk" eventType="touchUpInside" id="wg4-IK-HaW"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="IQKeyboardManager" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YcU-Yd-7OY">
+                                <rect key="frame" x="40" y="703" width="334" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="smj-ba-J1m"/>
+                                </constraints>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="YcU-Yd-7OY" firstAttribute="leading" secondItem="ZWC-UY-wXV" secondAttribute="leading" constant="40" id="1ZK-qZ-Ba7"/>
+                            <constraint firstItem="ZWC-UY-wXV" firstAttribute="trailing" secondItem="eJW-w5-ZZp" secondAttribute="trailing" constant="40" id="7RU-Jm-u25"/>
+                            <constraint firstItem="eJW-w5-ZZp" firstAttribute="leading" secondItem="ZWC-UY-wXV" secondAttribute="leading" constant="40" id="7bh-Yw-efZ"/>
+                            <constraint firstItem="ZWC-UY-wXV" firstAttribute="trailing" secondItem="YcU-Yd-7OY" secondAttribute="trailing" constant="40" id="FcN-B7-zCk"/>
+                            <constraint firstItem="eJW-w5-ZZp" firstAttribute="centerX" secondItem="0LW-Nh-v7o" secondAttribute="centerX" id="NAn-uc-5sL"/>
+                            <constraint firstItem="ZWC-UY-wXV" firstAttribute="bottom" secondItem="YcU-Yd-7OY" secondAttribute="bottom" constant="60" id="RrD-Mg-IDx"/>
+                            <constraint firstItem="eJW-w5-ZZp" firstAttribute="top" secondItem="ZWC-UY-wXV" secondAttribute="top" constant="60" id="Wep-Nd-Mkb"/>
+                            <constraint firstItem="YcU-Yd-7OY" firstAttribute="centerX" secondItem="0LW-Nh-v7o" secondAttribute="centerX" id="uVL-nY-ZOT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ZWC-UY-wXV"/>
                     </view>
                     <navigationItem key="navigationItem" title="工作" id="e4Q-17-ZSD"/>

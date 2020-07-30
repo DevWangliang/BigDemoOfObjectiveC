@@ -7,7 +7,10 @@
 //
 
 #import "WorkViewController.h"
-
+#import "YYModelTest.h"
+#import "MantleTest.h"
+#import "RefreshTableViewController.h"
+#import "Masonry.h"
 @interface WorkViewController ()
 
 @end
@@ -17,6 +20,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+//    [MantleTest test];
+}
+
+- (IBAction)goMJRefresh:(UIButton *)sender {
+    RefreshTableViewController *mjVC = [[RefreshTableViewController alloc] init];
+    [self.navigationController pushViewController:mjVC animated:YES];
 }
 
 /*

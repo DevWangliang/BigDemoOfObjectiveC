@@ -17,34 +17,52 @@ PODS:
   - CocoaLumberjack (3.6.1):
     - CocoaLumberjack/Core (= 3.6.1)
   - CocoaLumberjack/Core (3.6.1)
+  - IQKeyboardManager (6.5.5)
+  - Mantle (2.1.1):
+    - Mantle/extobjc (= 2.1.1)
+  - Mantle/extobjc (2.1.1)
   - Masonry (1.1.0)
+  - MJRefresh (3.4.1)
   - SDWebImage (5.7.2):
     - SDWebImage/Core (= 5.7.2)
   - SDWebImage/Core (5.7.2)
   - SVProgressHUD (2.2.5)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 4.0.1)
   - CocoaLumberjack
+  - IQKeyboardManager
+  - Mantle
   - Masonry (~> 1.1.0)
+  - MJRefresh
   - SDWebImage (~> 5.7.2)
   - SVProgressHUD
+  - YYModel
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - CocoaLumberjack
+    - IQKeyboardManager
+    - Mantle
     - Masonry
+    - MJRefresh
     - SDWebImage
     - SVProgressHUD
+    - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
   SDWebImage: d9ea4959d99c52276dfada481987018fcaea3d58
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 24489a2c68d478de405e62a864ae3accaf0867eb
+PODFILE CHECKSUM: 11b0ce13b3efa264fc941f2e3896319a2e46786c
 
 COCOAPODS: 1.9.3

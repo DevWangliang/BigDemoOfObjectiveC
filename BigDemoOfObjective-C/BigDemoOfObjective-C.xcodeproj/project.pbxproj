@@ -28,8 +28,6 @@
 		EF3FF98C24CE9F3200842C87 /* MDept.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF98B24CE9F3200842C87 /* MDept.m */; };
 		EF3FF98F24CE9F3C00842C87 /* MUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF98E24CE9F3C00842C87 /* MUser.m */; };
 		EF3FF99324CFA9E400842C87 /* RefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3FF99224CFA9E400842C87 /* RefreshTableViewController.m */; };
-		EF7E9D1524D0FF4E00299070 /* RequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7E9D1424D0FF4E00299070 /* RequestConfig.m */; };
-		EFA4160424CFFF93009ECD7F /* RequestCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA4160324CFFF93009ECD7F /* RequestCenter.m */; };
 		EFC8EDE7247BA02300E331DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EDE6247BA02300E331DD /* AppDelegate.m */; };
 		EFC8EDEA247BA02300E331DD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EDE9247BA02300E331DD /* SceneDelegate.m */; };
 		EFC8EDF0247BA02300E331DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC8EDEE247BA02300E331DD /* Main.storyboard */; };
@@ -61,7 +59,6 @@
 		EFC8EE70247FAE0300E331DD /* ChineseLogPretty.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC8EE6F247FAE0300E331DD /* ChineseLogPretty.m */; };
 		EFDB2D982487370900092BA6 /* NSString+DES.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB2D972487370900092BA6 /* NSString+DES.m */; };
 		EFDB2D9B24873A0E00092BA6 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB2D9A24873A0E00092BA6 /* NSString+Base64.m */; };
-		EFFF220224D14FB3008C4B0A /* UploadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFF220124D14FB3008C4B0A /* UploadTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,10 +121,6 @@
 		EF3FF98E24CE9F3C00842C87 /* MUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUser.m; sourceTree = "<group>"; };
 		EF3FF99124CFA9E400842C87 /* RefreshTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshTableViewController.h; sourceTree = "<group>"; };
 		EF3FF99224CFA9E400842C87 /* RefreshTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshTableViewController.m; sourceTree = "<group>"; };
-		EF7E9D1324D0FF4E00299070 /* RequestConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestConfig.h; sourceTree = "<group>"; };
-		EF7E9D1424D0FF4E00299070 /* RequestConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestConfig.m; sourceTree = "<group>"; };
-		EFA4160224CFFF93009ECD7F /* RequestCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestCenter.h; sourceTree = "<group>"; };
-		EFA4160324CFFF93009ECD7F /* RequestCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestCenter.m; sourceTree = "<group>"; };
 		EFC8EDE2247BA02300E331DD /* OC示例.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC示例.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC8EDE5247BA02300E331DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFC8EDE6247BA02300E331DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -197,10 +190,11 @@
 		EFDB2DD92487A25D00092BA6 /* AboutHomeBrew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutHomeBrew.h; sourceTree = "<group>"; };
 		EFDB2DDC2487A2CA00092BA6 /* AboutJenkins.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutJenkins.h; sourceTree = "<group>"; };
 		EFDB2DDD2487A2DE00092BA6 /* AboutFastlane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutFastlane.h; sourceTree = "<group>"; };
-		EFFF220024D14FB3008C4B0A /* UploadTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UploadTest.h; sourceTree = "<group>"; };
-		EFFF220124D14FB3008C4B0A /* UploadTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadTest.m; sourceTree = "<group>"; };
 		EFFF220424D2565A008C4B0A /* OCDemoMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCDemoMacros.h; sourceTree = "<group>"; };
 		EFFF220824D25AEC008C4B0A /* OCDemoHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDemoHeader.pch; sourceTree = "<group>"; };
+		EFFF222124D7B06B008C4B0A /* AboutCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutCache.h; sourceTree = "<group>"; };
+		EFFF222C24DA3DE5008C4B0A /* AboutConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutConfiguration.h; sourceTree = "<group>"; };
+		EFFF222D24DA56D9008C4B0A /* AboutAFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutAFNetworking.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,12 +319,8 @@
 		EFA4160124CFFF6F009ECD7F /* AFNetWorking */ = {
 			isa = PBXGroup;
 			children = (
-				EFA4160224CFFF93009ECD7F /* RequestCenter.h */,
-				EFA4160324CFFF93009ECD7F /* RequestCenter.m */,
-				EF7E9D1324D0FF4E00299070 /* RequestConfig.h */,
-				EF7E9D1424D0FF4E00299070 /* RequestConfig.m */,
-				EFFF220024D14FB3008C4B0A /* UploadTest.h */,
-				EFFF220124D14FB3008C4B0A /* UploadTest.m */,
+				EFFF222C24DA3DE5008C4B0A /* AboutConfiguration.h */,
+				EFFF222D24DA56D9008C4B0A /* AboutAFNetworking.h */,
 			);
 			path = AFNetWorking;
 			sourceTree = "<group>";
@@ -338,6 +328,7 @@
 		EFC8EDD9247BA02300E331DD = {
 			isa = PBXGroup;
 			children = (
+				EFFF222024D7B054008C4B0A /* AboutCache */,
 				EFFF220624D257A1008C4B0A /* AboutPCHFile */,
 				EFFF220324D255F8008C4B0A /* Macros */,
 				EF3FF95224C92BC500842C87 /* SomePodsUsedALot */,
@@ -690,6 +681,14 @@
 			path = AboutPCHFile;
 			sourceTree = "<group>";
 		};
+		EFFF222024D7B054008C4B0A /* AboutCache */ = {
+			isa = PBXGroup;
+			children = (
+				EFFF222124D7B06B008C4B0A /* AboutCache.h */,
+			);
+			path = AboutCache;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -870,7 +869,6 @@
 			files = (
 				EFC8EE70247FAE0300E331DD /* ChineseLogPretty.m in Sources */,
 				EFC8EDE7247BA02300E331DD /* AppDelegate.m in Sources */,
-				EFFF220224D14FB3008C4B0A /* UploadTest.m in Sources */,
 				EF3FF96524CE5D5F00842C87 /* Addressinfo.m in Sources */,
 				EFC8EE36247BAEBF00E331DD /* LaunchViewController.m in Sources */,
 				EF3FF98C24CE9F3200842C87 /* MDept.m in Sources */,
@@ -892,13 +890,11 @@
 				EFC8EE56247D11D200E331DD /* CustomTabBar.m in Sources */,
 				EF3FF98624CE9F1B00842C87 /* MTaskState.m in Sources */,
 				EF3FF96B24CE5D7B00842C87 /* Taskinfo.m in Sources */,
-				EFA4160424CFFF93009ECD7F /* RequestCenter.m in Sources */,
 				EFC8EDEA247BA02300E331DD /* SceneDelegate.m in Sources */,
 				EF3FF96E24CE5D9F00842C87 /* Dept.m in Sources */,
 				EFC8EE6D247FACCC00E331DD /* AboutRuntime.m in Sources */,
 				EF3FF97424CE5DB600842C87 /* ModelInYY.m in Sources */,
 				EF3FF98F24CE9F3C00842C87 /* MUser.m in Sources */,
-				EF7E9D1524D0FF4E00299070 /* RequestConfig.m in Sources */,
 				EF3FF98024CE9EFD00842C87 /* MStockInfo.m in Sources */,
 				EFC8EE60247E487300E331DD /* AboutAmimation.m in Sources */,
 				EFC8EE59247DEAA700E331DD /* Person.m in Sources */,

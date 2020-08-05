@@ -40,6 +40,7 @@ typedef void(^TestBlock)(NSArray *arr);
     };
     Log(@"arr = %p",&arr);
     block(arr);
+    
     return YES;
 }
 
